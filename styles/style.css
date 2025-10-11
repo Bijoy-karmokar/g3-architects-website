@@ -6,3 +6,37 @@
     font-family: "Work Sans", sans-serif;
 }
 
+#header-section{
+    height: 80rem;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.display-flex{
+    display: flex;
+}
+.nav-container{
+    max-width: 1350px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 110px 0;
+}
+.nav-container h3{
+color: var(--Dark 01, rgba(19, 19, 19, 1));
+font-size: 45px;
+font-weight: 700;
+}
+.nav-container .nav-links{
+      align-items: center;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links .nav-items{
+    text-decoration: none;
+      color:rgba(66, 66, 66, 1);
+      margin-right: 40px;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+}
