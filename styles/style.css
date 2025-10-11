@@ -19,7 +19,7 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0 110px 0;
+    padding: 50px 0 90px 0;
 }
 .nav-container h3{
 color: var(--Dark 01, rgba(19, 19, 19, 1));
@@ -39,4 +39,61 @@ font-weight: 700;
 font-size: 18px;
 font-weight: 500;
 line-height: 26px;
+}
+
+/* banner section */
+
+.banner{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.banner-text{
+    text-align: center;
+}
+.banner-text h2{
+color: var(--Dark 01, rgba(19, 19, 19, 1));
+font-size: 64px;
+font-weight: 700;
+}
+.banner-text p{
+color: var(--Dark 03, rgba(114, 114, 114, 1));
+font-size: 16px;
+font-weight: 400;
+margin: 30px 0;
+}
+button{
+   background-color: rgba(255, 144, 14, 1);
+   padding: 15px 25px;
+   font-size: 20px;
+   color: white;
+   font-weight: 800;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: all 1s;
+}
+button:hover{
+    background-color: rgb(238, 128, 3);
+}
+.banner-image{
+    margin: 50px 0;
+}
+.banner-image img{
+    width: 100%;
+
+}
+
+
+/* responsive design */
+
+@media screen and (max-width:576px) {
+       .nav-container,
+       .nav-links
+       {
+          flex-direction: column;
+       }
+       .nav-container{
+         padding: 20px 65px;
+       }
 }
